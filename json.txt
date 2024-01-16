@@ -1,0 +1,96 @@
+{
+  "condition": {
+    "id": "string",
+    "onsetDateTime": "2024-01-15T14:14:39.185Z",
+    "code": {
+      "coding": "string",
+      "text": "string"
+    },
+    "clinicalStatus": "string",
+    "verificationStatus": "string"
+  },
+  "encounter": {
+    "id": "string",
+    "status": "string",
+    "type": [
+      {
+        "coding": "string",
+        "text": "string"
+      }
+    ],
+    "periodEncounter": {
+      "start": "2024-01-15T14:14:39.185Z",
+      "end": "2024-01-15T14:14:39.185Z"
+    }
+  },
+  "medication": {
+    "id": "string",
+    "medicationCodeableConcept": {
+      "coding": "string",
+      "text": "string"
+    },
+    "authoredOn": "2024-01-15T14:14:39.185Z",
+    "dosageInstructionMedocation": {
+      "text": "string"
+    }
+  },
+  "observation": {
+    "id": "string",
+    "status": "string",
+    "code": {
+      "coding": "string",
+      "text": "string"
+    },
+    "temperature":  --問Danny
+    "bp": --問Danny
+    "effectiveDateTime": "2024-01-15T14:14:39.185Z",
+    "valueQuantity": {
+      "value": 0,
+      "unit": "string",
+      "system": "string",
+      "code": "string"
+    },
+    "valueString": "string"
+  },
+  "patient": {
+    "id": "string",
+    "name": [
+      {
+        "family": "string",
+        "given": [
+          "string"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "string",
+        "value": "string",
+        "use": "string"
+      }
+    ],
+    "gender": "string",
+    "birthDate": "2024-01-15T14:14:39.185Z",
+    "addresses": [
+      {
+        "use": "string",
+        "type": "string",
+        "text": "string",
+        "line": [
+          "string"
+        ],
+        "city": "string",
+        "district": "string",
+        "state": "string",
+        "postalCode": "string",
+        "country": "string"
+      }
+    ],
+    "photos": [
+      {
+        "contentType": "string",
+        "url": "string"
+      }
+    ]
+  }
+}
